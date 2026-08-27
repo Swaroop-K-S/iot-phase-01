@@ -1,8 +1,10 @@
+package day7;
+
 public class BinarySearch {
     public static void main(String[] args) {
-    	String[] arr = {"Uday","Rakesh","Ullas","Vinod","Yashas","Ujwal"};
-    	String key = "Ullas";
-    	int low = 0;
+        String[] arr = { "Uday", "Rakesh", "Ullas", "Vinod", "Yashas", "Ujwal" };
+        String key = "Ullas";
+        int low = 0;
         int high = arr.length - 1;
         while (low <= high) {
             int mid = (low + high) / 2;
