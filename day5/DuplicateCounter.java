@@ -5,7 +5,7 @@ public class DuplicateCounter {
         String text = "programming";
         System.out.println("Text: " + text);
         System.out.println("Finding all repeating characters...\n");
-        
+
         // Find all unique characters in the text to use as patterns
         String uniqueChars = "";
         for (int i = 0; i < text.length(); i++) {
@@ -14,7 +14,7 @@ public class DuplicateCounter {
                 uniqueChars += ch;
             }
         }
-        
+
         System.out.println("--- Results using Naive Approach ---");
         for (int i = 0; i < uniqueChars.length(); i++) {
             String pattern = String.valueOf(uniqueChars.charAt(i));
@@ -23,7 +23,7 @@ public class DuplicateCounter {
                 System.out.println("'" + pattern + "' repeats " + count + " times.");
             }
         }
-        
+
         System.out.println("\n--- Results using Rabin-Karp Approach ---");
         for (int i = 0; i < uniqueChars.length(); i++) {
             String pattern = String.valueOf(uniqueChars.charAt(i));
