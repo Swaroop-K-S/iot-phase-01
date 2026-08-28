@@ -1,3 +1,5 @@
+package day4;
+
 
 
 import java.util.Vector;
@@ -5,11 +7,11 @@ import java.util.Vector;
 public class VectorConstructorDemo1 {
 	public static void main(String[] args) {
 		/* creates a vector object with capacity  10 and when over-filled will increment by 10*/ 
-		Vector vector = new Vector();
+		Vector<String> vector = new Vector<>();
 		/* creates a vector object with capacity  5 and when over-filled will increment by 5*/
-	//	Vector vector = new Vector(5);	
+	//	Vector<String> vector = new Vector<>(5);	
 		/* creates a vector object with capacity  5 and when over-filled will increment by 3*/
-	//	Vector vector = new Vector(5,3);
+	//	Vector<String> vector = new Vector<>(5,3);
 		/*adding 10 elements*/
 		vector.add("A");
 		vector.add("A");

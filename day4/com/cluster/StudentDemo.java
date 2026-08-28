@@ -1,4 +1,4 @@
-package com.cluster;
+package day4.com.cluster;
 
 public class StudentDemo {
     public static void main(String[] args) {
@@ -11,3 +11,4 @@ public class StudentDemo {
         System.out.println("Students left over: " + studentsLeft);
     }
 }
+

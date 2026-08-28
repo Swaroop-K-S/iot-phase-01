@@ -1,3 +1,5 @@
+package day2;
+
 public class PrintNTo1 {
 
     static void printNTo1(int n) {
@@ -14,3 +16,4 @@ public class PrintNTo1 {
         printNTo1(n);
     }
 }
+

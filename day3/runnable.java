@@ -1,3 +1,5 @@
+package day3;
+
 public class runnable implements Runnable {
     public void run() {
         for (int i = 0; i < 5; i++) {

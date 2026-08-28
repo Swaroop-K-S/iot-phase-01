@@ -1,3 +1,5 @@
+package day4;
+
 import java.util.HashSet;
 
 public class Demo1{
@@ -22,3 +24,4 @@ public class Demo1{
         }
     }
 }
+

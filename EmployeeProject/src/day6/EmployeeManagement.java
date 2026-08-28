@@ -1,4 +1,4 @@
-package day6;
+package EmployeeProject.src.day6;
 
 import java.util.ArrayList;
 import java.util.Scanner;

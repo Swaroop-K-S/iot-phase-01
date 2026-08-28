@@ -1,5 +1,4 @@
-import java.util.Iterator;
-import java.util.Iterator;
+package day3;
 
 class Bank {
 

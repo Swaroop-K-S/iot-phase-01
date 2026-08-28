@@ -1,3 +1,5 @@
+package day4;
+
 
 
 import java.util.Enumeration;
@@ -9,7 +11,7 @@ public class VectorIterationDemo4 {
     public static void main(String[] args) {
 
         // can use Enumeration, Iterator and ListIterator with Vector
-        Vector vector = new Vector();
+        Vector<String> vector = new Vector<>();
 
         vector.addElement("C");
         vector.addElement("A");
@@ -20,34 +22,34 @@ public class VectorIterationDemo4 {
 
         // Using Enumeration with Vector
         System.out.print("Enumeration: ");
-        Enumeration enumeration = vector.elements();
+        Enumeration<String> enumeration = vector.elements();
         while (enumeration.hasMoreElements()) {
-            Object e = enumeration.nextElement();
+            String e = enumeration.nextElement();
             System.out.print(e + " ");
         }
         System.out.println();
 
         // Using Iterator with Vector
         System.out.print("Iterator: ");
-        Iterator iterator = vector.iterator();
+        Iterator<String> iterator = vector.iterator();
         while (iterator.hasNext()) {
-            Object e = iterator.next();
+            String e = iterator.next();
             System.out.print(e + " ");
         }
         System.out.println();
 
         // Using ListIterator with Vector
         System.out.print("ListIterator forward: ");
-        ListIterator listIterator = vector.listIterator();
+        ListIterator<String> listIterator = vector.listIterator();
         while (listIterator.hasNext()) {
-            Object e = listIterator.next();
+            String e = listIterator.next();
             System.out.print(e + " ");
         }
         System.out.println();
 
         System.out.print("ListIterator backward: ");
         while (listIterator.hasPrevious()) {
-            Object e = listIterator.previous();
+            String e = listIterator.previous();
             System.out.print(e + " ");
         }
         System.out.println();
@@ -55,3 +57,4 @@ public class VectorIterationDemo4 {
     }
 
 }
+

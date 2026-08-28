@@ -1,6 +1,5 @@
-package com.cluster;
+package day4.com.cluster;
 
-import java.util.HashSet;
 
 public class Demo {
     public static void main(String[] args) {
@@ -15,3 +14,4 @@ public class Demo {
         }
     }
 }
+

@@ -1,4 +1,4 @@
-package com.cluster;
+package day4.com.cluster;
 
 public class ElectricityConsumption {
     public static void main(String[] args) {
@@ -18,3 +18,4 @@ public class ElectricityConsumption {
         System.out.println("\nTotal electricity consumption for 7 days is: " + totalConsumption + " units");
     }
 }
+

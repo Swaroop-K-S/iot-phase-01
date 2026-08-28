@@ -1,7 +1,5 @@
 package day5;
 
-import java.util.HashSet;
-
 public class StringExample {
     public static void main(String[] args) {
         String name = "Anand";

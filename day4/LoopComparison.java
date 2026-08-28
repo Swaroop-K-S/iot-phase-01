@@ -1,3 +1,5 @@
+package day4;
+
 import java.util.HashSet;
 
 public class LoopComparison {
@@ -35,3 +37,4 @@ public class LoopComparison {
         }
     }
 }
+

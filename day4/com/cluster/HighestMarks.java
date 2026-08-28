@@ -1,4 +1,4 @@
-package com.cluster;
+package day4.com.cluster;
 
 public class HighestMarks {
     public static void main(String[] args) {
@@ -18,3 +18,4 @@ public class HighestMarks {
         System.out.println("\n\nThe highest mark is: " + highest);
     }
 }
+

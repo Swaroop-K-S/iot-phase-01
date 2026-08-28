@@ -1,3 +1,5 @@
+package day4;
+
 public class demo {
     public static void main(String[] args) {
         int n = 100000;
@@ -21,3 +23,4 @@ public class demo {
         }
     }
 }
+

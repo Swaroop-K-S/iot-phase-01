@@ -1,3 +1,5 @@
+package day4;
+
 import java.util.Scanner;
 
 public class EmployeeManagement {
@@ -100,3 +102,4 @@ public class EmployeeManagement {
         }
     }
 }
+

@@ -1,4 +1,4 @@
-package com.cluster;
+package day4.com.cluster;
 
 import java.util.Scanner;
 
@@ -51,3 +51,4 @@ public class FoodMenu {
         scanner.close();
     }
 }
+

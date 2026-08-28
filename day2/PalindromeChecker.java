@@ -1,3 +1,5 @@
+package day2;
+
 public class PalindromeChecker {
     
     /**
@@ -35,3 +37,4 @@ public class PalindromeChecker {
         }
     }
 }
+

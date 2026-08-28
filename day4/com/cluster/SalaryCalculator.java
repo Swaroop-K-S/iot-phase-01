@@ -1,4 +1,4 @@
-package com.cluster;
+package day4.com.cluster;
 
 public class SalaryCalculator {
     public static void main(String[] args) {
@@ -15,3 +15,4 @@ public class SalaryCalculator {
         System.out.println("The total salary of all 5 employees is: " + totalSalary);
     }
 }
+

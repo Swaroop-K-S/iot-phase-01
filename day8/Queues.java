@@ -11,7 +11,7 @@ public class Queues {
 		} else {
 			rear++;
 			queue[rear] = value;
-			System.out.println(value + " added");
+			System.out.println(value + "added");
 		}
 	}
 
@@ -19,13 +19,13 @@ public class Queues {
 		if (front > rear) {
 			System.out.println("Queue is empty");
 		} else {
-			System.out.println(queue[front] + " removed");
+			System.out.println(queue[front] + "removed");
 			front++;
 		}
 	}
 
 	static void display() {
-		System.out.println("Queue available elments:");
+		System.out.println("Queue available elments");
 		for (int i = front; i <= rear; i++) {
 			System.out.println(queue[i] + " ");
 

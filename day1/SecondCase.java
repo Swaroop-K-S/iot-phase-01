@@ -1,3 +1,5 @@
+package day1;
+
 public class SecondCase {
     public static void main(String[] args) {
         int[] arr = {12, 45, 7, 23, 56, 3, 89, 34};
