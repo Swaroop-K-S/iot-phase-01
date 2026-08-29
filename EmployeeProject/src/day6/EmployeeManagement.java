@@ -18,8 +18,17 @@ class Employee {
 
     // Create Account
     public void createAccount() {
-        System.out.print("Enter your name: ");
-        name = sc.nextLine();
+        while (true) {
+            System.out.print("Enter your name: ");
+            name = sc.nextLine().trim();
+            if (name.isEmpty()) {
+                System.out.println("Name cannot be empty.");
+            } else if (!name.matches("^[a-zA-Z\\s]+$")) {
+                System.out.println("Invalid name. Name must contain only alphabets.");
+            } else {
+                break;
+            }
+        }
 
         // Age
         while (true) {
@@ -31,7 +40,7 @@ class Employee {
                     break;
                 System.out.println("Age must be between 19 and 59.");
             } else {
-                System.out.println("Invalid age.");
+                System.out.println("Invalid input. Age must be a number.");
                 sc.nextLine();
             }
         }
@@ -151,6 +160,11 @@ public class EmployeeManagement {
                         System.out.println("No employees found.");
                     } else {
                         System.out.print("Enter employee number: ");
+                        if (!sc.hasNextInt()) {
+                            System.out.println("Invalid input! Please enter a valid number.");
+                            sc.nextLine();
+                            continue;
+                        }
                         int number = sc.nextInt();
                         sc.nextLine();
 
@@ -162,7 +176,7 @@ public class EmployeeManagement {
                     }
                     break;
                 case 4:
-                    System.out.println("Thank you!");
+                    System.out.println("Thank you for using the application!");
                     sc.close();
                     return;
                 default:
