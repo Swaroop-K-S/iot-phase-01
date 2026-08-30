@@ -1,47 +1,49 @@
-package day9;
+package Day9;
 
 public class PathSumProblem {
-    static class Node {
-        int data;
-        Node left, right;
+	 static class Node {
+	        int data;
+	        Node left, right;
 
-        Node(int data) {
-            this.data = data;
-        }
-    }
+	        Node(int data) {
+	            this.data = data;
+	        }
+	    }
 
-    static boolean hasPathSum(Node root, int target) {
-        if (root == null) {
-            return false;
-        }
+	    static boolean hasPathSum(Node root, int target) {
 
-        target = target - root.data;
-        if (root.left == null && root.right == null) {
-            return target == 0;
-        }
+	        if (root == null) {
+	            return false;
+	        }
 
-        return hasPathSum(root.left, target)
-                || hasPathSum(root.right, target);
-    }
+	        target = target - root.data;
+	        if (root.left == null && root.right == null) {
+	            return target == 0;
+	        }
 
-    public static void main(String[] args) {
-        Node root = new Node(1);
+	        return hasPathSum(root.left, target)
+	                || hasPathSum(root.right, target);
+	    }
 
-        root.left = new Node(2);
-        root.right = new Node(3);
+	    public static void main(String[] args) {
 
-        root.left.left = new Node(4);
-        root.left.right = new Node(5);
+	        Node root = new Node(1);
 
-        root.right.left = new Node(6);
-        root.right.right = new Node(7);
+	        root.left = new Node(2);
+	        root.right = new Node(3);
 
-        int target = 8;
+	        root.left.left = new Node(4);
+	        root.left.right = new Node(5);
 
-        if (hasPathSum(root, target)) {
-            System.out.println("Path with sum " + target + " exists");
-        } else {
-            System.out.println("Path does not exist");
-        }
-    }
-}
+	        root.right.left = new Node(6);
+	        root.right.right = new Node(7);
+
+	        int target = 8;
+
+	        if (hasPathSum(root, target)) {
+	            System.out.println("Path with sum " + target + " exists");
+	        } else {
+	            System.out.println("Path does not exist");
+	        }
+	    }
+	}
