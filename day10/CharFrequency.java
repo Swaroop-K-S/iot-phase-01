@@ -1,3 +1,5 @@
+package day10;
+
 public class CharFrequency {
     public static void main(String[] args) {
         String message = "AAAABBCCD";
