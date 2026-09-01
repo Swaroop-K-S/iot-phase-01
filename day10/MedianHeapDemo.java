@@ -16,7 +16,6 @@ public class MedianHeapDemo {
             minHeap.add(num);
         }
 
-        // Rebalance heaps so size difference is at most 1
         if (maxHeap.size() > minHeap.size() + 1) {
             minHeap.add(maxHeap.poll());
         } else if (minHeap.size() > maxHeap.size()) {
@@ -33,7 +32,7 @@ public class MedianHeapDemo {
     }
 
     public static void main(String[] args) {
-        int[] numbers = {30, 10, 20, 5};
+        int[] numbers = { 30, 10, 20, 5 };
 
         for (int num : numbers) {
             addNumber(num);
