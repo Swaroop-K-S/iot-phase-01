@@ -1,4 +1,4 @@
-package Day9;
+package day9;
 
 public class PathSumProblem {
 	 static class Node {

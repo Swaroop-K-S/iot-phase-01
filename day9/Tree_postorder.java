@@ -1,4 +1,4 @@
-package DAY9;
+package day9;
 
 public class Tree_postorder {
 	static class Node{

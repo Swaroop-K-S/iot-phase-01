@@ -1,4 +1,4 @@
-package DAY9;
+package day9;
 import java.util.*;
 public class Diameterof_binarytree{
 	static class Node {

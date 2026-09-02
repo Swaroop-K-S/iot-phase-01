@@ -1,6 +1,4 @@
-package DAY9;
-
-import DAY9.Tree_postorder.Node;
+package day9;
 
 public class Tree_Inorder {
 	static class Node{

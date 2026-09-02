@@ -1,5 +1,4 @@
-
-package DAY9;
+package day9;
 
 class PathSum {
 

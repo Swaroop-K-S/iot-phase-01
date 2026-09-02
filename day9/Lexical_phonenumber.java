@@ -1,4 +1,4 @@
-package DAY9;
+package day9;
 import java.util.ArrayList;
 public class Lexical_phonenumber {
 	public static void main(String[]args) {

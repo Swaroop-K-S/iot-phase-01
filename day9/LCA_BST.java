@@ -1,4 +1,4 @@
-package DAY9;
+package day9;
 
 public class LCA_BST {
 

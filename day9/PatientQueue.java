@@ -1,4 +1,4 @@
-package Day9;
+package day9;
 import java.util.PriorityQueue;
 class Patient {
 	String name;
